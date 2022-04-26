@@ -3,7 +3,7 @@ const router = express.Router()
 const Author = require('../models/author')
 
 router.get('/',(req, res)=>{
-    res.render('aothors/index')
+    res.render('authors/index')
 })
 
 router.get('/new',(req,res) =>{
