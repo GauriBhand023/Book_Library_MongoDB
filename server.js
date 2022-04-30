@@ -11,7 +11,6 @@ const indexRouter = require('./routs/index')
 const authorsRouter = require('./routs/authors')
 
 
-
 app.set('view engine', 'ejs')
 app.set('views',__dirname+ '/views')
 app.set('layout', 'layouts/layout')
